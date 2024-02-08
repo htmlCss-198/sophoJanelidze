@@ -1,0 +1,40 @@
+body{background-color:blanchedalmond}
+h1{text-align: center;}
+
+.img{display: flex;
+flex-direction:row;
+margin:5%;
+cursor: pointer;
+}
+#img2 {padding-left: 3%;
+padding-right: 3%;}
+
+#img1 {padding-left: 27%;}
+
+
+table,th,td {border:1px solid brown;
+margin-left: 35%;
+font-size: large;
+}
+
+th{background-color: indianred;}
+td{background-color: darksalmon;}
+
+span:hover {
+    color:blue;
+    cursor: pointer;
+}
+
+input{margin-top: 5%;
+padding:0.5%;}
+
+input:hover {background-color:brown}
+
+
+input:focus {color: black;}
+
+button:active {color:brown}
+
+
+
+
