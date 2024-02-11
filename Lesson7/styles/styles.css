@@ -1,0 +1,99 @@
+.nav1 ul{
+    list-style-type: none;
+    background-color: E78895;
+    margin: 0%;
+    overflow: hidden;
+   
+}
+
+.nav1 a{
+    text-decoration: none;
+    color: rgb(6, 70, 15);
+    padding: 15px;
+    display: block;
+    text-align: center;
+    
+}
+.nav1 a:hover{
+   background-color:rgb(228, 29, 96);
+}
+.nav1 li{
+    float: left;
+}
+header{position: sticky;
+top:0px}
+
+table,th,td{border: 2px solid gray;
+    background-color: F3D7CA;}
+table{position: relative;
+left: 45%;}
+
+th{ background-color:rgb(214, 148, 170);}
+
+td:hover{color: rgb(239, 27, 162);
+cursor: pointer;}
+
+body {background-color:FFF7F1;
+    margin: 0%;
+}
+
+main{margin: 20px;}
+h1{text-align: center;
+font-family: 'Protest Revolution', sans-serif;
+font-family: 'Protest Strike', sans-serif;}
+
+input{padding: 40px;
+background-color:rgb(244, 201, 208);}
+button{font-size:15px;
+background-color:pink;
+border-radius: 10px;}
+button:active{color: rgb(221, 35, 66);
+cursor: pointer;
+}
+.social{ display:flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left:550px;
+   top:70px;}
+   
+.star{display: inline-block}
+.in{display:block;
+position: relative;
+left: 10px;}
+
+.all{border: 2px solid pink;
+position:relative;
+bottom: 20px;
+font-size: 15px;
+width:350px;
+background-color: F3D7CA;
+}
+img{position: relative;
+bottom: 20px;
+border-radius: 30px;}
+
+.foot{display: flex;
+flex-direction: row;
+justify-content: space-around;
+border: 1px solid grey;
+margin: 0%;
+background-color:E78895;
+color: rgb(6, 70, 15);}
+
+#brd{border:2px solid rgb(224, 90, 135);
+border-radius: 20px;
+padding: 15px;
+background-color:F3D7CA;
+position: relative;
+right: 6px;}
+
+
+
+
+
+
+
+
+
+
