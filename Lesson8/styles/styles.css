@@ -1,0 +1,142 @@
+.fitness {display: flex;
+flex-direction: row;
+justify-content: space-between;
+width:200px;
+align-items: center;
+color:black;
+font-size: 18px;}
+
+.links { display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 200px;
+align-items: center;
+}
+
+.nav1 {display: flex;
+flex-direction: row;
+justify-content: space-between;
+width:1250px;
+
+}
+header{background-color: dimgray;
+        font-family: "Protest Strike", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        position: sticky;
+        top:0%
+      }
+      
+body{margin: 0%;}
+
+.nav1 a {text-decoration: none;
+font-size: 18px;
+color:black}
+.nav1 a:hover {color:whitesmoke}
+.fitness:hover {color:whitesmoke;
+cursor: pointer;}
+body{background-color: rgb(157, 160, 164);}
+
+h1{text-align: center;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow:rgb(242, 244, 246) 4px 2px;
+
+}
+
+.img {display: flex;
+flex-direction: row;
+justify-content:space-around;
+position: relative;
+top:40px;
+}
+#img2:hover{
+    width: 200px;
+    height: 200px;
+}
+#img1:hover{
+    width: 200px;
+    height: 200px;}
+    #img3:hover{
+        width: 200px;
+        height: 200px;}
+
+#img1{ transform:skew(10deg);
+    border-radius: 10px;
+}
+#img3{ transform:skew(10deg);
+    border-radius: 10%;
+}
+#img2 {border-radius: 10%;}
+.main{margin:3%;
+}
+span{color: rgb(177, 7, 7);}
+
+table,th,td {border:2px solid rgb(56, 54, 54);
+}
+td{padding: 10px;
+background-color:rgb(150, 145, 145);}
+td:hover{color: whitesmoke;
+cursor: pointer;}
+th{background-color: rgb(92, 89, 89)}
+.table1{position: relative;
+left:70%;
+bottom:205px;}
+.table0{position: relative;
+left:9%}
+#statistics{text-align: center;}
+.footer{display: flex;
+flex-direction: row;
+justify-content:space-around;
+border: 2px solid gray;
+background-color: dimgray;
+font-size: 17px;
+
+
+}
+h3{font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;}
+
+    .footer p:hover{color:whitesmoke;
+    cursor: pointer;}
+    
+    input{padding:9px;
+    background-color: rgb(210, 204, 204);}
+    button{padding: 7px;}
+    button:hover{background-color: gray;}
+
+    .slogan{border:4px solid rgb(78, 76, 76);
+    width:200px;
+    
+    font-family: "Protest Strike", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        position: sticky;
+        top:0%;
+        animation: slogan 4s infinite;
+        position: relative;
+        text-align: center;
+        background-color: rgb(191, 188, 188);
+        
+  }
+
+    @keyframes slogan {
+
+        0% {left:0px;}
+
+        25 % { left:100px;}
+
+        50% {left:300px;}
+
+        75% {left:600px;}
+
+        90% {left: 800px;}
+
+        100% {left:1100px;}
+
+
+
+    }
+  
