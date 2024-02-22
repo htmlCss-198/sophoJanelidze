@@ -1,0 +1,100 @@
+
+#searchbar { padding:8px;
+border: 0px;
+border-bottom: 2px solid gray;
+font-size: 13px;
+}
+
+.icons {font-size: 17px;
+    position: relative;
+    left:18%;
+} 
+
+#lupa{position: relative;
+right: 20%;}
+
+
+
+#lupa:hover {color: rgb(157, 201, 172);
+cursor: pointer;}
+
+h1:hover {color:rgb(157, 201, 172) ;
+cursor: pointer;}
+
+#heart:hover {color: rgb(157, 201, 172);
+cursor: pointer;}
+
+#bag:hover {color: rgb(157, 201, 172);
+    cursor: pointer;}
+
+#user:hover {color: rgb(157, 201, 172);
+cursor: pointer;}
+
+#ig:hover {color: rgb(157, 201, 172);
+cursor: pointer;}
+
+#tiktok:hover {color: rgb(157, 201, 172);
+    cursor: pointer;}
+
+.nav1 a:hover{color: rgb(157, 201, 172);
+    cursor: pointer;}
+
+ #shop {position: relative;
+right:50px;}
+.head {display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+height:150px;}
+
+ h1{position: relative;
+left:170px;
+} 
+.nav1 {display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+width: 1250px;
+position: relative;
+left:150px}
+.nav1 a {text-decoration: none;
+color: black;
+font-size: 17px;}
+
+header {position:sticky;
+margin:0%;}
+
+ #animation{font-size: 20px;
+color:rgb(18, 18, 17);
+position: relative;
+animation: shopnow 8s infinite;
+}
+
+ @keyframes shopnow {
+    5% {left:50px}
+    20% {left:100px}
+    40% {left:300px;}
+    60% {left:500px;}
+    80% {left:700px;}
+    90% {left:900px;}
+    100% {left:1100px;} 
+} 
+
+.img2 {display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;}
+
+footer{display: flex;
+flex-direction: row;
+justify-content:space-between;
+border: 2px solid black;
+background-color: black;
+color: white;
+}
+
+#about:hover{color: rgb(157, 201, 172);
+    cursor: pointer;}
+
+#about { text-decoration: none;
+color:white}
