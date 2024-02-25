@@ -1,0 +1,109 @@
+.nav {display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+background-color: var(--color2);
+}
+header {position: sticky;
+top:0%}
+body {margin: 0%;
+background-color: rgb(212, 245, 212);}
+
+:root {--color1:rgb(159, 155, 155);
+       --color2:rgb(193, 243, 193);
+
+}
+
+.nav a { text-decoration: none;
+    padding:30px;
+    font-size: 18px;  
+    color: var(--color1)
+}
+
+.nav a:hover{ color: yellowgreen;
+cursor: pointer;}
+
+h1{text-align: center;
+font-size: 30px;
+font-family: "Dosis", sans-serif;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal;;
+
+}
+
+.dino {display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+#dinos:hover {cursor: pointer;
+width:600px;
+height: 400px;}
+
+h3 {text-align: center;
+font-size:30px;
+font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.dino2 {display: grid;
+    grid-template-columns: auto auto;
+    position: relative;
+    left: 170px;
+}
+
+footer { display: grid;
+grid-template-columns: 45fr 10fr;
+border: 1px solid rgb(191, 211, 162);
+background-color:var(--color2);
+width:100%;
+
+}
+.atag {display: grid;
+    grid-template-rows: 3fr 3fr 1fr;
+
+}
+.atag a {text-decoration: none;
+    color:var(--color1)
+
+}
+.atag a:hover {color: yellowgreen;}
+input {border-radius: 20px;
+padding: 5px;}
+input:focus {color: rgb(18, 137, 105);}
+button {padding: 10px;
+border-radius: 10px;}
+button:hover {color: yellowgreen;
+cursor:pointer;
+background-color: white;}
+
+::selection {color:chartreuse;}
+
+main { float: left;
+    width:80%;
+}
+aside {position: relative;
+    left: 70px;
+}
+h4 {font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.cat { display:flex;
+    flex-direction: column;
+    font-size: 19px;
+
+}
+
+.cat a {text-decoration: none;
+border-bottom: 1px solid gray;
+color:var(--color1)}
+.cat a:hover{color: yellowgreen;
+cursor: pointer;}
+
+
+
