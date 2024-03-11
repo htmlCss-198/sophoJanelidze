@@ -1,0 +1,153 @@
+:root{--color1:black;}
+
+h1 { text-align: center;
+      font-size: 60px;
+      position: relative;
+      top:40px;
+      font-family: "Lora", serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;}
+
+#undertext { text-align: center;
+             font-size: 30px;
+             color:lightsalmon;
+             position: relative;
+             top:20px;
+             font-family: "Dancing Script", cursive;
+             font-optical-sizing: auto;
+             font-weight: <weight>;
+             font-style:normal;}
+
+ hr{ width: 1300px;}          
+   
+ .nav1 { display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+         width: 900px;
+         align-items: center;
+         position: relative;
+         left:400px;}
+
+ .nav1 a { text-decoration: none;
+         color:var(--color1);
+         font-size: 20px;}  
+
+ .nav1 a:hover {color:rgb(174, 168, 168);
+cursor: pointer;}
+
+#contactimg {position: relative;
+    left:350px;}
+#contactimg:hover {width:1050px;
+cursor: pointer;}
+h2 { text-align: center;
+    text-shadow: rgb(223, 148, 148) 2px 2px ;
+         font-family: "Lora", serif;
+          font-optical-sizing: auto;
+          font-weight: <weight>}
+ .contactp{display: flex;
+flex-direction: column;
+align-items: center;
+font-size: 18px;}
+.contactinput {display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 750px;
+    position: relative;
+    left:460px;}
+.textarea{display: flex;
+flex-direction: column;
+align-items: center;}
+#input1 {width:200px;
+height:30px;
+border-color: rgb(106, 59, 59);}
+#input2 {width:200px;
+    height:30px;
+    border-color: rgb(106, 59, 59);}
+ #input3 {width:200px;
+        height:30px;
+        border-color: rgb(106, 59, 59);}
+input:focus{color:rgb(205, 155, 155);
+ background-color:rgb(238, 217, 217);}
+textarea:focus {color:rgb(205, 155, 155)}
+textarea:hover {background-color: rgb(238, 217, 217);}
+#send{width: 200px;
+    height:30px;
+  font-size: 16px;
+background-color:rgb(181, 137, 137);
+border-radius: 10px;}
+  #send:hover {cursor: pointer; color:rgb(161, 90, 90)}
+p::selection {background-color:rgb(161, 90, 90);}
+footer{display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 1250px;
+    position: relative;
+    left:130px;}
+    .foot1 {display:flex;
+          flex-direction: column;
+          align-items: center;
+    border-right: solid grey 2px;}
+    .foot2 {display:flex;
+          flex-direction: column;
+          align-items:center;
+          width: 470px;
+          height: 318px;
+          border-right: solid grey 2px;
+    }
+    .footer3 {display:flex;
+          flex-direction: column;
+          align-items: center;}
+     #inputfoot {padding:1px;
+            text-align: center;
+           border-radius: 10px;
+           border-color: rgb(196, 193, 193)} 
+           #inputfoot2 {padding: 1px;
+           text-align: center;
+           border-radius: 10px;
+           border-color: rgb(196, 193, 193)}
+     #footersub {width: 80px;
+    background-color: rgb(191, 187, 187);}
+     #footersub:hover { background-color: rgb(179, 106, 106);
+    cursor: pointer;}
+     #icon {font-size: 35px;}
+     #about {position: relative;
+        right:50px}    
+#aboutp { position: relative;
+       right:40px;
+       font-size: 17px;} 
+
+.dropdown {position: relative;
+        display: inline-block;}
+  
+.dropdown-content {display: none;
+             position: absolute;
+             background-color: rgb(237, 234, 232);
+             width: 100px;
+             text-align: center;
+             font-size: 17px;
+             z-index: 1;
+            }
+  
+.dropdown:hover .dropdown-content {display: block;}
+
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+  h1 {
+      font-size: 40px;
+      top: 20px;
+  }
+
+  #undertext {
+      font-size: 20px;
+      top: 10px;
+  }
+
+  .nav1 {
+      width: 300px;
+      left: 50px;
+  }
+
+  #contactimg {
+      left: 100px;}
+  }
