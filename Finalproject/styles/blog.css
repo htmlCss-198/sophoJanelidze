@@ -1,0 +1,258 @@
+:root{--color1:black;
+        --backcolor:white;
+}
+
+h1 { text-align: center;
+      font-size: 60px;
+      position: relative;
+      top:40px;
+      font-family: "Lora", serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;}
+
+#undertext { text-align: center;
+             font-size: 30px;
+             position: relative;
+             top:20px;
+             font-family: "Dancing Script", cursive;
+             font-optical-sizing: auto;
+             font-weight: <weight>;
+             font-style:normal;}
+
+ hr{ width: 1300px;}          
+   
+ .nav1 { display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+         width: 900px;
+         align-items: center;
+         position: relative;
+         left:400px;}
+
+ .nav1 a { text-decoration: none;
+         color:var(--color1);
+         font-size: 20px;}  
+
+ .nav1 a:hover {color:rgb(174, 168, 168);
+cursor: pointer;}
+
+footer{display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 1250px;
+    position: relative;
+    left:130px;}
+    .foot1 {display:flex;
+          flex-direction: column;
+          align-items: center;
+    border-right: solid grey 2px;}
+    .foot2 {display:flex;
+          flex-direction: column;
+          align-items:center;
+          width: 470px;
+          height: 318px;
+          border-right: solid grey 2px;
+    }
+    .footer3 {display:flex;
+          flex-direction: column;
+          align-items: center;}
+     #inputfoot {padding:1px;
+            text-align: center;
+           border-radius: 10px;
+           border-color: rgb(196, 193, 193)} 
+           #inputfoot2 {padding: 1px;
+           text-align: center;
+           border-radius: 10px;
+           border-color: rgb(196, 193, 193)}
+     #footersub {width: 80px;
+    background-color: rgb(191, 187, 187);}
+     #footersub:hover { background-color: rgb(179, 106, 106);
+    cursor: pointer;}
+     #icon {font-size: 35px;}
+     h4 { font-size: 18px;
+          font-family: "Lora", serif;
+          font-optical-sizing: auto;
+          font-weight: <weight>;}
+    
+     #about {position: relative;
+            right:50px}    
+    #aboutp { position: relative;
+           right:40px;
+           font-size: 17px;} 
+#asidetext{width: 300px;
+        padding: 10px;
+        border-bottom: solid grey 1px;}
+#inputaside {padding: 5px;
+        border-radius: 10px;
+        border-color: brown;}
+#inputaside:focus{color: rgb(210, 141, 141);}
+    
+.dropdown {position: relative;
+        display: inline-block;}
+  
+.dropdown-content {display: none;
+             position: absolute;
+             background-color: rgb(237, 234, 232);
+             width: 100px;
+             text-align: center;
+             font-size: 17px;}
+  
+.dropdown:hover .dropdown-content {display: block;}
+
+.headimage {display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;}
+
+#first {position: absolute;
+        left:340px;
+       top:483px;
+       background-color: white;
+       font-size: 17px;}
+#second {position: absolute;
+        left:1270px;
+        top:483px;
+        background-color: white;
+        font-size: 17px;}
+
+#third {position: absolute;
+        left:810px;
+        top:483px;
+        background-color: white;
+        font-size: 17px;}
+
+.underimage {display: flex;
+        flex-direction: row;
+        justify-content: space-around;}
+#h3 {position: relative;
+        right: 100px;}
+.ptext {width: 500px;
+        font-size: 18px;}
+
+.part2 {width: 500px;
+        position: relative;
+        right: 120px;
+        bottom:0px;
+        border-left: solid grey 2px;
+        padding-left: 50px;}
+
+.part2line {display: flex;
+        flex-direction: column;
+        width: 320px;
+        border-bottom: solid grey 1px;
+        font-size:17px
+}
+.part1 a {color:var(--color1)}
+.part1 a:hover {cursor: pointer;
+        color:grey;}
+.mainpart{ display: flex;
+        flex-direction: row;
+       justify-content: space-between;}
+h2 {text-align: center;}
+.part1 {position: relative;
+        left:200px;
+        border-right: solid gray 2px;
+        padding-right:30px;}
+#search { padding: 9px;
+        border-color: brown;}
+#search:focus {color:brown}
+
+.part2line2 {width: 320px;
+       font-size: 17px;
+       border-bottom: solid grey 1px; ;
+       border-top: solid grey 1px;}
+
+.post {display: flex;
+        flex-direction: row;
+        position: relative;
+        left:200px;}
+.post a {color:var(--color1)}
+.post a:hover {color:grey;
+cursor: pointer;}
+.posttext {display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        left:40px;
+         width: 500px;}
+
+.post2 {display: flex;
+                flex-direction: row;
+                position: relative;
+                left:200px;}
+.post2 a {color:var(--color1)}
+.post2 a:hover {color:grey;
+                cursor: pointer;}
+.posttext2 {display: flex;
+                flex-direction: column;
+                align-items: center;
+                position: relative;
+                left:40px;
+                 width: 500px;}
+
+.post3 {display: flex;
+        flex-direction: row;
+        position: relative;
+        left:200px;}
+
+.post3 a {color:var(--color1)}
+.post3 a:hover {color:grey;
+        cursor: pointer;}
+
+.posttext3 {display: flex;
+           flex-direction: column;
+           align-items: center;
+           position: relative;
+           left:40px;
+            width: 500px;}
+        
+.post4 {display: flex;
+        flex-direction: row;
+        position: relative;
+        left:200px;}
+
+.post4 a {color:var(--color1)}
+.post4 a:hover {color:grey;
+        cursor: pointer;}
+        
+.posttext4 {display: flex;
+           flex-direction: column;
+           align-items: center;
+           position: relative;
+           left:40px;
+           width: 500px;}
+
+img:hover {opacity:0.7;
+        cursor: pointer;}
+h3:hover {color:rgb(234, 129, 129);
+cursor: pointer;}
+h2 { text-shadow: rgb(164, 161, 161) 2px 2px;}
+p::first-line {color:lightsalmon}
+
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+        h1 {
+            font-size: 40px;
+            top: 20px;
+        }
+    
+        #undertext {
+            font-size: 20px;
+            top: 10px;
+        }
+    
+        .nav1 {
+            width: 300px;
+            left: 50px; 
+        }
+    
+        footer {
+            width: 300px;
+            left: 50px;
+        }
+    
+    }
+
+
+
+    
