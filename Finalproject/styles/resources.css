@@ -54,8 +54,8 @@ h2 {text-align: center;
             background-size: 700px;
             -webkit-animation:images 8s infinite;}
 @keyframes images {
-     from {background-image: url(/images/transition.jpeg);}
-     to {background-image: url(/images/transition2.jpeg);}
+     from {background-image: url(./../images/transition.jpeg);}
+     to {background-image: url(./../images/transition2.jpeg);}
 }
 
 .photos {display:flex;
